@@ -6,7 +6,7 @@ public class tempatParkir {
             int jenis, durasi, total = 0;
 
             do {
-                System.out.println("======= Kode Jenis Kendaraan =======");
+                System.out.println("\n======= Kode Jenis Kendaraan =======");
                 System.out.println("1. Mobil");
                 System.out.println("2. Motor");
                 System.out.println("0. Keluar");
@@ -19,6 +19,7 @@ public class tempatParkir {
 
                     if (jenis == 1) {
                         total += durasi * 3000;
+                        
                     } else {
                         total += durasi * 2000;
                     }
